@@ -16,7 +16,7 @@ import (
 	"fmt"
 	"net/http"
 	"strings"
-    "github.com/nextlinux/go-logger"
+    "github.com/nextlinux/gologger"
 )
 
 // contextKeys are used to identify the type of value in the context.

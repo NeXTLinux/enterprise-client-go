@@ -34,7 +34,7 @@ import (
 	"unicode/utf8"
 
 	"golang.org/x/oauth2"
-	"github.com/nextlinux/go-logger"
+	"github.com/nextlinux/gologger"
 )
 
 var (
