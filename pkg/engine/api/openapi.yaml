@@ -8095,7 +8095,7 @@ components:
           $ref: '#/components/schemas/ImageImportFileCoordinate'
         metadata:
           description: File metadata such as mode, size, etc. This is populated by
-            nextlinuxctl analysis but is not available in older syft-generated SBOMs
+            nextlinuxctl analysis but is not available in older gosbom-generated SBOMs
           properties: {}
           type: object
         digests:

@@ -6,7 +6,7 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Id** | **string** | Unique identifier within the sbom for the file for other elements in the sbom to reference | 
 **Location** | [**ImageImportFileCoordinate**](ImageImportFileCoordinate.md) |  | 
-**Metadata** | Pointer to **interface{}** | File metadata such as mode, size, etc. This is populated by nextlinuxctl analysis but is not available in older syft-generated SBOMs | [optional] 
+**Metadata** | Pointer to **interface{}** | File metadata such as mode, size, etc. This is populated by nextlinuxctl analysis but is not available in older gosbom-generated SBOMs | [optional] 
 **Digests** | Pointer to [**[]ImportFileDigest**](ImportFileDigest.md) |  | [optional] 
 
 ## Methods

@@ -20,7 +20,7 @@ type ImportFile struct {
 	// Unique identifier within the sbom for the file for other elements in the sbom to reference
 	Id string `json:"id"`
 	Location ImageImportFileCoordinate `json:"location"`
-	// File metadata such as mode, size, etc. This is populated by nextlinuxctl analysis but is not available in older syft-generated SBOMs
+	// File metadata such as mode, size, etc. This is populated by nextlinuxctl analysis but is not available in older gosbom-generated SBOMs
 	Metadata *interface{} `json:"metadata,omitempty"`
 	Digests *[]ImportFileDigest `json:"digests,omitempty"`
 }

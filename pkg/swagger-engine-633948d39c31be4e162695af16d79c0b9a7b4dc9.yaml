@@ -5690,7 +5690,7 @@ definitions:
       versionID:
         type: string
         x-nullable: true
-#  Prior to syft v0.36.0, idLike was a space-separated string.  Now it is a List of strings.  Swagger 2.0 doesn't
+#  Prior to gosbom v0.36.0, idLike was a space-separated string.  Now it is a List of strings.  Swagger 2.0 doesn't
 #  support multiple schemas, so for now we will allow the idLike property to be any value to support both schemas.
       idLike: {}
     additionalProperties: true
@@ -5799,7 +5799,7 @@ definitions:
         "$ref": "#/definitions/ImageImportFileCoordinate"
       metadata:
         type: object
-        description: File metadata such as mode, size, etc. This is populated by nextlinuxctl analysis but is not available in older syft-generated SBOMs
+        description: File metadata such as mode, size, etc. This is populated by nextlinuxctl analysis but is not available in older gosbom-generated SBOMs
       digests:
         type: array
         items:
